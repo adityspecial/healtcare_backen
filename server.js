@@ -36,5 +36,5 @@ app.get("/", (req, res) => {
 
 app.listen(port, "0.0.0.0", () => {
   console.log(`Server running on http://0.0.0.0:${port}`);
-  console.log(`Access from network: http://10.200.241.31:${port}`);
+  console.log(`Access from network: http://10.200.248.172:${port}`);
 });
